@@ -163,14 +163,14 @@ namespace IterationStatements
             Console.WriteLine("");
 
             //Heatin Up2
-            Console.WriteLine("Lastly, we will do the multiplication table (1-12) for a number. What number?");
+            Console.WriteLine("Lastly, we will do the multiplication table (1 through 12) for a number. What number?");
             int numToBeTabled = int.Parse(Console.ReadLine());
             Console.WriteLine("");
             MultiplicationTable(numToBeTabled);
             Console.WriteLine("");
 
             //Exit
-            Console.WriteLine("Press any key to exit");
+            Console.WriteLine("Thanks for getting to the end! Press any key to exit");
             Console.ReadKey();
         }
     }
